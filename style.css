@@ -11,10 +11,10 @@ body {
 /* Sale sections */
 
 .intro-start {
-  background-color: white;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 5rem;
   padding: 120px 400px;
   align-items: center;
 }
@@ -32,7 +32,7 @@ body {
   letter-spacing: 0.2rem;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4159;
+  color: #59394e;
   margin-top: 0.5rem;
   margin-bottom: 0;
   font-style: italic;
@@ -42,31 +42,18 @@ body {
   font-weight: 500;
   font-size: 45px;
   letter-spacing: 0.1rem;
-  color: #8c5d89;
+  color: #59394e;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .paragrafs {
-  color: #2e4159;
+  color: #59394e;
   font-size: 14px;
 }
 
-.phonenumber-icon {
-  font-size: 37px;
-  color: #8c5d89;
-}
-
-.phonenumber-all {
-  display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  gap: 0.5rem;
-}
-
 .intro-pic {
-  width: 150%;
-  height: 100%;
+  width: 15rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -74,7 +61,7 @@ body {
     flex-direction: column;
   }
   .intro-pic {
-    width: 70%;
+    width: 15rem;
   }
   .intro-pics {
     display: flex;
@@ -103,7 +90,6 @@ body {
 }
 
 /* Buttons css */
-
 .normal-button {
   border: none;
   background-color: #eee;
@@ -112,7 +98,7 @@ body {
   letter-spacing: 2px;
   color: #f2f2f2;
   border-radius: 10px;
-  background: linear-gradient(to right, #2e4159 50%, #8c5d89 50%);
+  background: linear-gradient(to right, #0d0e26 50%, #59394e 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -133,10 +119,11 @@ body {
 /* solid navbar */
 .solid-nav {
   width: 100%;
-  background-color: #f2bde9;
+  background-color: #56588c;
   transition: background-color 0.2s linear;
   -webkit-text-stroke: 0rem black;
   box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.55);
+  height: 6rem;
 }
 
 .Content-nav {
@@ -149,15 +136,13 @@ body {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin-top: 2rem;
   list-style: none;
 }
 
 .img-logo {
   width: 80px;
-  height: 80px;
-  margin-top: 1rem;
   margin-left: 1rem;
+  margin-top: 0.5rem;
 }
 
 .link {
@@ -172,13 +157,15 @@ body {
 }
 
 .info-color-nav {
-  color: #2e4159;
+  color: #0d0e26;
 }
 
 .info-color-nav:hover {
-  color: #bf8eb7;
+  color: #59394e;
 }
 
 .links {
   margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
