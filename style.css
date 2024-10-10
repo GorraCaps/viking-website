@@ -180,7 +180,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 70vh;
   justify-content: center;
 }
 
@@ -197,12 +197,16 @@ input {
 }
 
 input::placeholder {
-    color: #001128;
     transition: color 1s;
 }
 
 input:focus::placeholder {
     color: transparent;
+}
+
+label {
+  color: #f2f2f2;
+  font-size: 13px;
 }
 
 .nameInput {
@@ -253,3 +257,4 @@ input:focus::placeholder {
 .h2H {
     font-size: 5em;
 }
+
