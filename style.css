@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: black;
   margin: 0;
   height: 200vh;
 }
@@ -173,37 +172,38 @@ body {
 
 /* main page */
 
-#bodyH {
+#bodyM {
     width: 100vw;
 }
-#shipH {
+#shipM {
     width: 100vw;
     display: flex;
     justify-content: center;
 }
 
-#saleH {
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#saleImgH {
-    max-width: 40vw;
-}
-#saleTxtH {
-    color: white;
-    max-width: 40vw;
-    font-size: 1.5em;
-}
-
-#joinH {
+#joinM {
     width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: white;
 }
-.h2H {
+.h2M {
     font-size: 5em;
+}
+
+
+/* history page */
+
+#mainH {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.txtH {
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
