@@ -7,6 +7,9 @@ body {
 }
 
 /* Sale sections */
+#background {
+  background-color: white;
+}
 
 .intro-start {
   background-color: #f2f2f2;
