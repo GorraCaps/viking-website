@@ -248,6 +248,7 @@ label {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10vh;
 }
 #headH {
     height: 20vh;
