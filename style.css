@@ -223,6 +223,29 @@ label {
   text-align: center;
 }
 
+.inputBirth {
+  width: 27em;
+}
+
+@media screen and (max-width: 530px) {
+  .nameInput {
+    flex-direction: column;
+    align-items: center;
+  }
+  .kultbilde {
+    height: 110vh;
+  }
+  .inputBirth {
+    width: 160px;
+  }
+  .kult:nth-child(2) {
+    font-size: 0.9rem;
+  }
+  .kult:nth-child(1) {
+    font-size: 1.2rem;
+  }
+}
+
 /* main page */
 
 #bodyM {
