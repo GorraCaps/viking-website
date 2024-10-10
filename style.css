@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  height: 200vh;
 }
 
 /* Sale sections */
@@ -49,10 +48,11 @@ body {
 .paragrafs {
   color: #59394e;
   font-size: 14px;
+  max-width: 70%;
 }
 
 .intro-pic {
-  width: 15rem;
+  width: 20rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -95,6 +95,7 @@ body {
   cursor: pointer;
   transition: 0.4s;
   letter-spacing: 2px;
+  padding: 10px;
   color: #f2f2f2;
   border-radius: 10px;
   background: linear-gradient(to right, #0d0e26 50%, #59394e 50%);
@@ -169,6 +170,55 @@ body {
   align-items: center;
 }
 
+/*CSS kult bilde*/
+.kultbilde {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('./image/test2.webp');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  justify-content: center;
+}
+
+input {
+    margin-bottom: 1rem;
+    border: none;
+    appearance: none;
+    padding: 12px 12px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    outline: none;
+    display: flex;
+    width: 10rem;
+}
+
+input::placeholder {
+    transition: color 1s;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+label {
+  color: #f2f2f2;
+  font-size: 13px;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.kult {
+  color: #f2f2f2;
+  text-align: center;
+}
 
 /* main page */
 
