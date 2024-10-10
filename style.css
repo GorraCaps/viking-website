@@ -249,6 +249,7 @@ label {
     width: 60vw;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 0px 5px;
 }
 #joinM {
     width: 100vw;
@@ -269,10 +270,16 @@ label {
     flex-direction: column;
     margin-bottom: 10vh;
 }
+#logoH {
+    max-width: 20vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
 #headH {
-    height: 20vh;
+    height: 7vh;
     display: flex;
     align-items: end;
+    font-size: 32pt;
 }
 .txtH {
     width: 70vw;
@@ -281,5 +288,8 @@ label {
     justify-content: center;
 }
 #storyTxtH {
-    font-size: 1.3vw;
+    font-size: 1.5em;
+}
+#moodboardH {
+    width: 70vw
 }
